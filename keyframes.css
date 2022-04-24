@@ -1,0 +1,186 @@
+@keyframes fullSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes halfSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes thirdSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes miniLeft {
+  from {
+    position: relative;
+    left: 0px;
+  }
+  to {
+    position: relative;
+    left: 100px;
+  }
+}
+@keyframes miniRight {
+  from {
+    position: relative;
+    right: 0px;
+  }
+  to {
+    position: relative;
+    right: 100px;
+  }
+}
+@keyframes outOfScreenLeft {
+  from {
+    position: relative;
+    left: -1100px;
+  }
+  to {
+    position: relative;
+    left: 800px;
+  }
+}
+@keyframes outOfScreenRight {
+  from {
+    position: relative;
+    right: -2000px;
+  }
+  to {
+    position: relative;
+    right: 0px;
+  }
+}
+@keyframes leftOutOfScreen {
+  from {
+    position: relative;
+    left: 0px;
+  }
+  to {
+    position: relative;
+    left: -1100px;
+  }
+}
+@keyframes rightOutOfScreen {
+  from {
+    position: relative;
+    right: 0px;
+  }
+  to {
+    position: relative;
+    right: -2000px;
+  }
+}
+@keyframes down {
+  from {
+    position: relative;
+    top: 0px;
+  }
+  to {
+    position: relative;
+    top: 200px;
+  }
+}
+@keyframes up {
+  from {
+    position: relative;
+    top: 0px;
+  }
+  to {
+    position: relative;
+    top: -200px;
+  }
+}
+@keyframes upDown {
+  0% {
+    position: relative;
+    top: 0;
+  }
+  100% {
+    position: relative;
+    top: 0;
+  }
+  50% {
+    position: relative;
+    top: -250px;
+  }
+}
+@keyframes leftRight {
+  0% {
+    position: relative;
+    left: 0px;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+  }
+  50% {
+    position: relative;
+    left: 400px;
+  }
+}
+@keyframes blastIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes blastInOut {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes tilt {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/*# sourceMappingURL=keyframes.css.map */

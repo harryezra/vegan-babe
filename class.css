@@ -1,0 +1,152 @@
+.sassanimate.fullSpin {
+  animation-name: fullSpin;
+}
+.sassanimate.fullSpin-hover:hover {
+  animation-name: fullSpin;
+}
+.sassanimate.halfSpin {
+  animation-name: halfSpin;
+}
+.sassanimate.halfSpin-hover:hover {
+  animation-name: halfSpin;
+}
+.sassanimate.thirdSpin {
+  animation-name: thirdSpin;
+}
+.sassanimate.thirdSpin-hover:hover {
+  animation-name: thirdSpin;
+}
+.sassanimate.fadeIn {
+  animation-name: fadeIn;
+}
+.sassanimate.fadeIn-hover:hover {
+  animation-name: fadeIn;
+}
+.sassanimate.fadeOut {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-hover:hover {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-active:active {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-focus:focus {
+  animation-name: fadeOut;
+}
+.sassanimate.miniLeft {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-hover:hover {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-focus:focus {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-active:active {
+  animation-name: miniLeft;
+}
+.sassanimate.miniRight {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-hover:hover {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-active:active {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-focus:focus {
+  animation-name: miniRight;
+}
+.sassanimate.outOfScreenLeft {
+  animation-name: outOfScreenLeft;
+}
+.sassanimate.outOfScreenRight {
+  animation-name: outOfScreenRight;
+}
+.sassanimate.leftOutOfScreen {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-hover:hover {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-active:active {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-focus:focus {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.rightOutOfScreen {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-hover:hover {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-active:active {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-focus:focus {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.down {
+  animation-name: down;
+}
+.sassanimate.down-hover:hover {
+  animation-name: down;
+}
+.sassanimate.down-active:active {
+  animation-name: down;
+}
+.sassanimate.down-focus:focus {
+  animation-name: down;
+}
+.sassanimate.up {
+  animation-name: up;
+}
+.sassanimate.up-hover:hover {
+  animation-name: up;
+}
+.sassanimate.up-active:active {
+  animation-name: up;
+}
+.sassanimate.up-focus:focus {
+  animation-name: up;
+}
+.sassanimate.upDown {
+  animation-name: upDown;
+}
+.sassanimate.upDown-hover:hover {
+  animation-name: upDown;
+}
+.sassanimate.upDown-active:active {
+  animation-name: upDown;
+}
+.sassanimate.upDown-focus:focus {
+  animation-name: upDown;
+}
+.sassanimate.leftRight {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-hover:hover {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-active:active {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-focus:focus {
+  animation-name: leftRight;
+}
+.sassanimate.blastIn {
+  animation-name: blastIn;
+}
+.sassanimate.tilt {
+  animation-name: tilt;
+}
+.sassanimate.tilt-hover:hover {
+  animation-name: tilt;
+}
+.sassanimate.tilt-active:active {
+  animation-name: tilt;
+}
+
+/*# sourceMappingURL=class.css.map */

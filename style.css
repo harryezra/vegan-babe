@@ -1,0 +1,380 @@
+@keyframes fullSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes halfSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes thirdSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes miniLeft {
+  from {
+    position: relative;
+    left: 0px;
+  }
+  to {
+    position: relative;
+    left: 100px;
+  }
+}
+@keyframes miniRight {
+  from {
+    position: relative;
+    right: 0px;
+  }
+  to {
+    position: relative;
+    right: 100px;
+  }
+}
+@keyframes outOfScreenLeft {
+  from {
+    position: relative;
+    left: -1100px;
+  }
+  to {
+    position: relative;
+    left: 800px;
+  }
+}
+@keyframes outOfScreenRight {
+  from {
+    position: relative;
+    right: -2000px;
+  }
+  to {
+    position: relative;
+    right: 0px;
+  }
+}
+@keyframes leftOutOfScreen {
+  from {
+    position: relative;
+    left: 0px;
+  }
+  to {
+    position: relative;
+    left: -1100px;
+  }
+}
+@keyframes rightOutOfScreen {
+  from {
+    position: relative;
+    right: 0px;
+  }
+  to {
+    position: relative;
+    right: -2000px;
+  }
+}
+@keyframes down {
+  from {
+    position: relative;
+    top: 0px;
+  }
+  to {
+    position: relative;
+    top: 200px;
+  }
+}
+@keyframes up {
+  from {
+    position: relative;
+    top: 0px;
+  }
+  to {
+    position: relative;
+    top: -200px;
+  }
+}
+@keyframes upDown {
+  0% {
+    position: relative;
+    top: 0;
+  }
+  100% {
+    position: relative;
+    top: 0;
+  }
+  50% {
+    position: relative;
+    top: -250px;
+  }
+}
+@keyframes leftRight {
+  0% {
+    position: relative;
+    left: 0px;
+  }
+  100% {
+    position: relative;
+    left: 0px;
+  }
+  50% {
+    position: relative;
+    left: 400px;
+  }
+}
+@keyframes blastIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes blastInOut {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+@keyframes tilt {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.sassanimate.fullSpin {
+  animation-name: fullSpin;
+}
+.sassanimate.fullSpin-hover:hover {
+  animation-name: fullSpin;
+}
+.sassanimate.halfSpin {
+  animation-name: halfSpin;
+}
+.sassanimate.halfSpin-hover:hover {
+  animation-name: halfSpin;
+}
+.sassanimate.thirdSpin {
+  animation-name: thirdSpin;
+}
+.sassanimate.thirdSpin-hover:hover {
+  animation-name: thirdSpin;
+}
+.sassanimate.fadeIn {
+  animation-name: fadeIn;
+}
+.sassanimate.fadeIn-hover:hover {
+  animation-name: fadeIn;
+}
+.sassanimate.fadeOut {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-hover:hover {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-active:active {
+  animation-name: fadeOut;
+}
+.sassanimate.fadeOut-focus:focus {
+  animation-name: fadeOut;
+}
+.sassanimate.miniLeft {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-hover:hover {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-focus:focus {
+  animation-name: miniLeft;
+}
+.sassanimate.miniLeft-active:active {
+  animation-name: miniLeft;
+}
+.sassanimate.miniRight {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-hover:hover {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-active:active {
+  animation-name: miniRight;
+}
+.sassanimate.miniRight-focus:focus {
+  animation-name: miniRight;
+}
+.sassanimate.outOfScreenLeft {
+  animation-name: outOfScreenLeft;
+}
+.sassanimate.outOfScreenRight {
+  animation-name: outOfScreenRight;
+}
+.sassanimate.leftOutOfScreen {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-hover:hover {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-active:active {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.leftOutOfScreen-focus:focus {
+  animation-name: leftOutOfScreen;
+}
+.sassanimate.rightOutOfScreen {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-hover:hover {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-active:active {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.rightOutOfScreen-focus:focus {
+  animation-name: rightOutOfScreen;
+}
+.sassanimate.down {
+  animation-name: down;
+}
+.sassanimate.down-hover:hover {
+  animation-name: down;
+}
+.sassanimate.down-active:active {
+  animation-name: down;
+}
+.sassanimate.down-focus:focus {
+  animation-name: down;
+}
+.sassanimate.up {
+  animation-name: up;
+}
+.sassanimate.up-hover:hover {
+  animation-name: up;
+}
+.sassanimate.up-active:active {
+  animation-name: up;
+}
+.sassanimate.up-focus:focus {
+  animation-name: up;
+}
+.sassanimate.upDown {
+  animation-name: upDown;
+}
+.sassanimate.upDown-hover:hover {
+  animation-name: upDown;
+}
+.sassanimate.upDown-active:active {
+  animation-name: upDown;
+}
+.sassanimate.upDown-focus:focus {
+  animation-name: upDown;
+}
+.sassanimate.leftRight {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-hover:hover {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-active:active {
+  animation-name: leftRight;
+}
+.sassanimate.leftRight-focus:focus {
+  animation-name: leftRight;
+}
+.sassanimate.blastIn {
+  animation-name: blastIn;
+}
+.sassanimate.tilt {
+  animation-name: tilt;
+}
+.sassanimate.tilt-hover:hover {
+  animation-name: tilt;
+}
+.sassanimate.tilt-active:active {
+  animation-name: tilt;
+}
+
+.sassanimate.duration-1 {
+  animation-duration: 1s;
+}
+
+.sassanimate.duration-2 {
+  animation-duration: 2s;
+}
+
+.sassanimate.duration-3 {
+  animation-duration: 3s;
+}
+
+.sassanimate.duration-4 {
+  animation-duration: 4s;
+}
+
+.sassanimate.duration-5 {
+  animation-duration: 5s;
+}
+
+.sassanimate.duration-6 {
+  animation-duration: 6s;
+}
+
+.sassanimate.repeat-1 {
+  animation-iteration-count: 1;
+}
+
+.sassanimate.repeat-2 {
+  animation-iteration-count: 2;
+}
+
+.sassanimate.repeat-3 {
+  animation-iteration-count: 3;
+}
+
+.sassanimate.repeat-infinite {
+  animation-iteration-count: infinite;
+}
+
+.sassanimate.forwards {
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=style.css.map */
